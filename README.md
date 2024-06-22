@@ -6,7 +6,7 @@ In this post, I demonstrate how to Dockerize a simple Node.js application using 
 # Steps to Build and Run the Docker Container
 Ensure you have Docker installed.
 
-1 - Navigate to your project directory.
+1 - Navigate to your project directory
 2 - Build the Docker image : docker build -t node-app .
 3 - Run the Docker container : docker run -p 9000:9000 node-app
 4 - Login to hub.docker
